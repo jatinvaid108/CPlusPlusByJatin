@@ -1,17 +1,12 @@
 #include <iostream>
 using namespace std;
-void change(int arr[]){
-    arr[0]=9;
-}
 int main(){
-    int arr[]={1,2,3};
-    for(int i=0;i<=2;i++){
-        cout<<arr[i]<<" ";
+    int arr[]={-10,-5,-6,-2,-4,-6};
+    int n=sizeof(arr)/4;
+    int mx=INT16_MIN;                                      
+    for(int i=0;i<n;i++){                          //Here u can start with 0                  
+        // if (arr[i]>mx) mx=arr[i];
+        mx=max(mx,arr[i]);
     }
-    cout<<endl;    //Updating with help of functions
-    change(arr);   // Arrays are pass by Reference . Donot confuse between pass by value here not applicable 
-    for(int i=0;i<=2;i++){
-        cout<<arr[i]<<" ";
-    }
-    
+    cout<<"The greatest element in array is :-  "<<mx;
 }
