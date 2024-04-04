@@ -1,37 +1,37 @@
 // Wap to count the digit of a given number 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int n;
-//     cout<<"Enter the number ";
-//     cin>>n;
-//     int count=0;
-//     if(n==0){                       
-//         count=1;
-//     }
-//     while(n>0){
-//         n=n/10;
-//         count=count+1;
-//     }
-//     cout<<count<<endl;}
+int main() {
+    int n;
+    cout<<"Enter the number ";
+    cin>>n;
+    int count=0;
+    if(n==0){                       
+        count=1;
+    }
+    while(n>0){
+        n=n/10;
+        count=count+1;
+    }
+    cout<<count<<endl;}
       
 // WaP to print the sum of digit in number 
-// #include <iostream>
-// using namespace std;
-// int main() {
-//     int n;
-//     cout<<"Enter the number ";
-//     cin>>n;
-//     int sum=0;
-//     while(n>0){
-//         int last_digit=n%10;
-//         n=n/10;
-//         sum=sum+last_digit;
-//     }
-//     cout<<sum<<endl;
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout<<"Enter the number ";
+    cin>>n;
+    int sum=0;
+    while(n>0){
+        int last_digit=n%10;
+        n=n/10;
+        sum=sum+last_digit;
+    }
+    cout<<sum<<endl;
       
-// }
+}
  // WAP TO print the sum of the all the even digits in the number 
  #include <iostream>
 using namespace std;

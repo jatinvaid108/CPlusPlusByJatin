@@ -1,48 +1,48 @@
 // To check weather the person is eligible to vote or not !! 
 
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int age;
-//     cout<<"Enter the age";
-//     cin>>age;
-//     if (age>=18)
-//     cout<<"eligibble to vote";
-//     else cout<<"Not Eligible";
-//     return 0;
-// }
+#include <iostream>
+using namespace std;
+int main(){
+    int age;
+    cout<<"Enter the age";
+    cin>>age;
+    if (age>=18)
+    cout<<"eligibble to vote";
+    else cout<<"Not Eligible";
+    return 0;
+}
 
 // To check wheather the number is positive or not 
 
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int num;
-//     cout<<"ENter the number ";
-//     cin>>num;
-//     if(num>=0){
-//         cout<<"POsitive Wow!!";
-//     }
-//     else{
-//         cout<<"Negative";
-//     }
-// }
+#include <iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"ENter the number ";
+    cin>>num;
+    if(num>=0){
+        cout<<"POsitive Wow!!";
+    }
+    else{
+        cout<<"Negative";
+    }
+}
 
 // To check Wheather  the number is even or odd !
 
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int num;
-//     cout<<"Enter the number";
-//     cin>>num;
-//     if(num%2==0){
-//         cout<<"Congo Even Number !!";
-//     }
-//     else{
-//         cout<<"Bad!! Negative Number";
-//     }
-// }
+#include <iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"Enter the number";
+    cin>>num;
+    if(num%2==0){
+        cout<<"Congo Even Number !!";
+    }
+    else{
+        cout<<"Bad!! Negative Number";
+    }
+}
 
 // #include <stdio.h>
 
@@ -56,6 +56,7 @@
 
 //     return 0;
 // }
+
 // #include <iostream>
 // using namespace std;
 // int main(){
@@ -70,29 +71,29 @@
 //     }
 // }
 
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int cp;
-//     cout<<"Enter the Cost price ";
-//     cin>>cp;
-//     int sp;
-//     cout<<"Enter the Selling Price";
-//     cin>>sp;
-//     if(sp>cp){
-//         cout<<(sp-cp)<<endl;
-//         cout<<"Profit Booked";
-//     }
-//     else if(sp<cp){
-//         cout<<(cp-sp)<<endl;
-//         cout<<"Incurred loss";
-//     }
-//     else if (sp==cp)
-//     {
-//         cout<<"No loss or Profit ";
-//     }
+#include <iostream>
+using namespace std;
+int main(){
+    int cp;
+    cout<<"Enter the Cost price ";
+    cin>>cp;
+    int sp;
+    cout<<"Enter the Selling Price";
+    cin>>sp;
+    if(sp>cp){
+        cout<<(sp-cp)<<endl;
+        cout<<"Profit Booked";
+    }
+    else if(sp<cp){
+        cout<<(cp-sp)<<endl;
+        cout<<"Incurred loss";
+    }
+    else if (sp==cp)
+    {
+        cout<<"No loss or Profit ";
+    }
     
-// }
+}
 
 // take length and breadth as input from user . Write a program to check weather the area of rectange is greater than perimeter or not . use simple conditionals for this program
 

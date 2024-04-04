@@ -1,47 +1,47 @@
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int x;
-//     cout<<"Enter te number ";
-//     cin>>x;
-//     // (condition)? if true: if false;
-//     (x%2==0)? cout<<"Even":cout<<"Odd";
-// }
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    cout<<"Enter te number ";
+    cin>>x;
+    // (condition)? if true: if false;
+    (x%2==0)? cout<<"Even":cout<<"Odd";
+}
 
 // Switch Statement
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int n1, n2;
-//     cout << "Enter n1: ";
-//     cin >> n1;
+int main() {
+    int n1, n2;
+    cout << "Enter n1: ";
+    cin >> n1;
 
-//     char op;  // Declare the operator variable
-//     cout << "Enter an operator (+, -, *, /): ";  // Prompt the user for an operator
-//     cin >> op;
+    char op;  // Declare the operator variable
+    cout << "Enter an operator (+, -, *, /): ";  // Prompt the user for an operator
+    cin >> op;
 
-//     cout << "Enter n2: ";
-//     cin >> n2;
+    cout << "Enter n2: ";
+    cin >> n2;
 
-//     if (op == '+') {
-//         cout << "Result: " << n1 + n2 << endl;
-//     } else if (op == '-') {
-//         cout << "Result: " << n1 - n2 << endl;
-//     } else if (op == '*') {
-//         cout << "Result: " << n1 * n2 << endl;
-//     } else if (op == '/') {
-//         if (n2 != 0) {
-//             cout << "Result: " << static_cast<double>(n1) / n2 << endl;
-//         } else {
-//             cout << "Cannot divide by zero." << endl;
-//         }
-//     } else {
-//         cout << "Invalid operator." << endl;
-//     }
+    if (op == '+') {
+        cout << "Result: " << n1 + n2 << endl;
+    } else if (op == '-') {
+        cout << "Result: " << n1 - n2 << endl;
+    } else if (op == '*') {
+        cout << "Result: " << n1 * n2 << endl;
+    } else if (op == '/') {
+        if (n2 != 0) {
+            cout << "Result: " << static_cast<double>(n1) / n2 << endl;
+        } else {
+            cout << "Cannot divide by zero." << endl;
+        }
+    } else {
+        cout << "Invalid operator." << endl;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 #include <iostream>
 using namespace std;
