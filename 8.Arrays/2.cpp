@@ -28,7 +28,7 @@ int main(){
     cout<<x<<endl;
     change(x); // pass by value Therefore will print same value as 3 . Upper 8 wala dabba hi alag hai 
     cout<<x<<endl;
-} 
+}
 
 
 #include <iostream>

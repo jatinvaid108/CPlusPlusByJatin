@@ -28,8 +28,9 @@ int main() {
     int arr[num];
 
     // Input array elements
+    cout<<"Enter element "; 
     for (i = 0; i < num; i++) {
-        cout << "Enter element " << i + 1 << ": ";
+        cout<< i + 1 << ": ";
         cin >> arr[i];
     }
 
@@ -50,3 +51,4 @@ int main() {
 
     return 0;
 }
+
