@@ -1,4 +1,4 @@
-// Given an integer n. Create an array containing squares of all natural numbers till n and print the elements of the array
+// Given an integer n. Create an array containing squares of all natural numbers till n and print the elements of the array .
 
 #include <iostream>
 #include <cmath>
