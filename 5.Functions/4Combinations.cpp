@@ -45,3 +45,23 @@ int main(){
 
     cout<<a/(b*c);
 }
+
+#include <iostream>
+using namespace std;
+int fact(int x){
+    int num,product=1;
+    for(int i=1;i<=x;i++){
+        product*=i;
+    }
+    return product;
+}
+int main(){
+    int a,b,c;
+    cin>>a>>b;
+    int a1=fact(a);
+    int b2=fact(b);
+    int c3=fact(a-b);
+    int denominator=b2*c3;
+    int factorial=a1/denominator;
+    cout<<"The combinations are as follows: "<<factorial;
+}
