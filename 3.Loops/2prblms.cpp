@@ -106,3 +106,16 @@ int main() {
 }
 
 
+
+
+// Display this ap 4,7,10,13,16
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    for(int i=4;i<=4+(n-1)*3;i=i+3){
+        cout<<i<<endl;
+    }
+}
+

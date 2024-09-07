@@ -33,6 +33,21 @@ int main() {
       
 }
  // WAP TO print the sum of the all the even digits in the number 
+#include <iostream>
+using namespace std;
+int main(){
+    int num,last_digit;
+    cin>>num;
+    int sum=0;
+    while(num>0){
+        last_digit=num%10;
+        if(last_digit%2==0) sum+=last_digit;
+        num=num/10;
+    }
+    cout<<sum<<endl;
+}
+
+// ---------------------------------------------------------------------------->
  #include <iostream>
 using namespace std;
 
@@ -65,6 +80,7 @@ int main() {
 
     return 0;
 }
+// --------------------------------------------------------------------------->
 
 
 

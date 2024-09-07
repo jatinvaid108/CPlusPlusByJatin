@@ -1,4 +1,12 @@
 //Last time you got this in end term and you did it wrong :-
+
+//Write a C++ program that reads an integer input from the user and determines the largest digit in the number. The program should display the largest digit and then print the corresponding word representation of that digit (e.g., "One", "Two", "Three", etc.). If the largest digit is not handled in the `switch` cases, output a default message.
+
+// For example:
+// - Input: 374
+// - Output: The largest digit is 7, and it should print "Seven".
+
+
 #include <iostream>
 using namespace std;
 int main(){
