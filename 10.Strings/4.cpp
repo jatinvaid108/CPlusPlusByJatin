@@ -17,7 +17,7 @@ int main(){
     int i=0;
     int j=n-1;
     while(i<j){
-        int temp=a[i];
+        int temp=a[i];       //try using char instead of int 
         a[i]=a[j];
         a[j]=temp;
         i++;

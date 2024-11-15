@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 int main(){
-    string s="raghav";
+    string s="raghav  ";
     cout<<s<<endl;
     int n=s.length();
     int i=0;       // Yahan se shru krna

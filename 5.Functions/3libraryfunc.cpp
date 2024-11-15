@@ -6,7 +6,7 @@ int main(){
     // cout<<cbrt(8)<<endl;
     cout<<max(4,8)<<endl; // min and max func don't need <cmath> header file 
     cout<<min(4,8)<<endl;
-    cout<<pow(2,2)<<endl;
+    cout<<pow(2,4)<<endl;
 }
 
 // Permutations and combinations 

@@ -31,4 +31,5 @@ int main(){
     if(arr[i]!=mx) sec_mx=max(sec_mx,arr[i]);
    }
    cout<<sec_mx;
-} 
+}
+

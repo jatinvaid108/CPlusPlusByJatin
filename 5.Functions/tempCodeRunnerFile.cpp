@@ -1,17 +1,17 @@
 #include <iostream>
-using namespace std;
-void swap(int& x, int& y){
-    int temp=x;
-    x=y;
-    y=temp;
-    cout<<x<<" "<<y;
+using  namespace std;
+void usa(){
+    cout<<"Good Morning "<<endl;
+    return;   // return will close the function
+    cout<<"USA"<<endl;
 }
-int main (){
-    int x,y;
-    cout<<"Enter x:"<<endl;
-    cin>>x;
-    cout<<"Enter y:"<<endl;
-    cin>>y;
-    cout<<x<<" "<<y<<endl;
-    swap(x,y);
-}  
+void bharat(){
+    cout<<"Namaskar Bharat "<<endl;
+    cout<<"Jai Hind"<<endl;
+    return;
+}
+int main(){                   // main function can be called single time while others can be called number of times 
+    cout<<"Hey Everyone KYa Hall chall "<<endl;
+    usa();
+    bharat();
+}
